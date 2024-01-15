@@ -12,7 +12,7 @@ async function getProducts() {
         </div>
         <div>
             <p>${product.title.substr(0, 16)}</p>
-            <p>${padTo(product.price, '#')}</p>
+            <p>${padTo(product.price, '$')}</p>
             <p>${product.description.substr(0, 20)}</p>
         </div>
     </div>`;
